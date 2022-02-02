@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/arraylearn/arraylearn.iml" filepath="$PROJECT_DIR$/arraylearn/arraylearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/base.iml" filepath="$PROJECT_DIR$/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collectionlearn/collectionlearn.iml" filepath="$PROJECT_DIR$/collectionlearn/collectionlearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericslearn/genericslearn.iml" filepath="$PROJECT_DIR$/genericslearn/genericslearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/iolearn/iolearn.iml" filepath="$PROJECT_DIR$/iolearn/iolearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/ooplearn/ooplearn.iml" filepath="$PROJECT_DIR$/ooplearn/ooplearn.iml" />
