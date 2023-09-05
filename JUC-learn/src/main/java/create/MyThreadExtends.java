@@ -9,10 +9,20 @@ package create;
  **/
 public class MyThreadExtends extends Thread {
 
+    public MyThreadExtends() {
+    }
+
+    public MyThreadExtends(String name) {
+        super(name);
+    }
+
     @Override
     public void run() {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("继承Thread的线程:" + i);
+        for (int i = 0; i <= 100; i++) {
+            System.out.println(Thread.currentThread().getName() + ":" + i);
+//            if(i % 20 == 0){
+//                Thread.yield();
+//            }
         }
     }
 }

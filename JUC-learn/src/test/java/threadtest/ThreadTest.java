@@ -16,10 +16,10 @@ public class ThreadTest {
     //测试线程的创建方式
     public static void main(String[] args) {
         //继承的方式创建线程
-        new MyThreadExtends().start();
+        new MyThreadExtends("线程1").start();
 
         //实现Runnable接口的方式创建线程
-        new Thread(new MyThreadImpl()).start();
+        new Thread(new MyThreadImpl(), "线程2").start();
 
     }
 
