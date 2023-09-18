@@ -17,6 +17,7 @@ public class TicketThread implements Runnable {
                         Thread.sleep(10);
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
+
                     }
                     System.out.println(Thread.currentThread().getName() + "出售了第" + ticket + "张票...");
                     ticket--;
