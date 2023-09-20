@@ -2,6 +2,11 @@ package synchronizetest.deadtest;
 
 /**
  * 死锁测试
+ *
+ * 验证是否是死锁：
+ *  1. jps 类似Linux中 ps -ef
+ *  2. jstack  jvm自带堆栈跟踪工具
+ *
  */
 public class DeadLockTest {
     public static void main(String[] args) {
